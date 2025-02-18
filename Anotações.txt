@@ -1,0 +1,40 @@
+#### BOAS PRATICAS E EXEMPLOS! ####
+
+*snake case ---> espaços em braco são substituidos por underline
+*nomes sugestivos
+
+nota_aluno = 10
+
+#variaveis ex:
+age = 23
+name = "Gustavo"
+
+print(f"Meu nome é {name} e eu tenho {age} anos!")
+
+#constante ex:
+
+ESTADO_SIGLA = "SP"
+
+print (ESTADO_SIGLA)
+
+AULA - CONVERSÃO DE TIPOS
+
+** str ----> float
+
+quant_produtos = "10"
+print(quant_produtos)
+
+quant_produtos = float(quant_produtos)
+print(quant_produtos)
+
+divisao_de_marcas = quant_produtos /2
+print (divisao_de_marcas)
+
+*barras duplas dividem um numero e retornam um valor inteiro!
+
+AULA - FUNÇÕES DE ENTRADA(E) E SAIDA(s)
+
+print(nome, sobrenome end="...\")
+nome sobrenome...
+print(nome, sobrenome sep="#")
+nome#sobrenome
